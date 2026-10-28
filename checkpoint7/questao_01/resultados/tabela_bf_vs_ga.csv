@@ -1,0 +1,6 @@
+metodo,caixa_rs,gap_pct,tempo_s,pico_kib,observacao
+Brute Force (m=8 SKUs),162909.1541204049,0.0,0.20496408499999852,32769.2421875,2100875 combinações avaliadas (ótimo exato)
+GA A (principal) (seed principal),162909.1541204049,0.0,0.006121582000000458,79.09375,"48 gerações, 5760 avaliações"
+GA A (principal) — 10 execuções,,0.0,0.0059592722999999735,,gap médio; pior gap 0.0000%; achou o ótimo em 100% das execuções
+GA B (enxuta) (seed principal),162909.1541204049,0.0,0.006578026000001458,29.90625,"69 gerações, 2760 avaliações"
+GA B (enxuta) — 10 execuções,,0.0,0.005221942800000079,,gap médio; pior gap 0.0000%; achou o ótimo em 100% das execuções

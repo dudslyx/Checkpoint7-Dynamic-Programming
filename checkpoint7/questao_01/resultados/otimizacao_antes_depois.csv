@@ -1,0 +1,3 @@
+alvo,versao_antes,versao_depois,tempo_antes_s,tempo_depois_s,speedup,pico_antes_kib,pico_depois_kib
+"Brute Force (m=6, 84035 combinações)",itertools.product + recálculo em Python,tabelas pré-computadas + decodificação vetorizada em blocos,0.5100575929999991,0.002743927999997453,185.88592448507123,0.4453125,2627.078125
+Fitness do GA (300 avaliações de população 120x27),laços Python (soma gene a gene),gather vetorizado numpy,0.0447300590000026,0.005095112999999429,8.779012163225351,1156.5390625,369.5078125

@@ -1,0 +1,3 @@
+configuracao,populacao,mutacao_por_gene,torneio_k,cruzamento,elitismo,paciencia,caixa_rs,gap_vs_otimo_exato_pct,gap_medio_pct_nas_repeticoes,geracoes,geracao_99pct,avaliacoes,tempo_s,pico_kib
+A (principal),120,0.05,3,0.9,4,40,341660.0509165145,0.0,0.0,60,12,7200,0.011365801000000175,243.80078125
+B (enxuta),40,0.01,2,0.8,1,40,341660.0509165145,0.0,0.03057293522556717,92,28,3680,0.009175889999999853,85.52734375

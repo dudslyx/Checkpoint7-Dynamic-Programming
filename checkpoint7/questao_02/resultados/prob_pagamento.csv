@@ -1,0 +1,5 @@
+compromisso,valor_rs,P_pagar_no_prazo,IC95_inf,IC95_sup,P_falha,limite_falha,dentro_do_limite
+semana 4,56155.94,1.0,1.0,1.0,0.0,0.1,True
+semana 8,72534.75,1.0,1.0,1.0,0.0,0.1,True
+semana 12,105292.38,1.0,1.0,1.0,0.0,0.1,True
+as três juntas,233983.07,1.0,,,0.0,0.1,True

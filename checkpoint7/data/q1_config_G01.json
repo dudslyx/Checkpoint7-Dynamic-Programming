@@ -1,0 +1,20 @@
+{
+  "grupo": "G01",
+  "seed_base": 20,
+  "seed_final": 1020,
+  "horizonte_dias": 90,
+  "meta_caixa_90d": 219809.58,
+  "divida_total_90d": 193563.1,
+  "orcamento_promocional": 95575.47,
+  "margem_minima_percentual": 0.054,
+  "niveis_preco_relativos": [
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1
+  ],
+  "observacao": "Os níveis de preço são multiplicadores aplicados sobre o preco_atual."
+}

@@ -1,0 +1,17 @@
+{
+  "grupo": "G01",
+  "quantidade_integrantes": 3,
+  "seed_base": 20,
+  "seed_final": 1020,
+  "id_instancia": "6b77ba9e0f93",
+  "arquivos": {
+    "q1_catalogo_G01.csv": "044e99f8599ba0ec3c7776b9b7e1dbb35ff1be45d2934ff1d0d5a7412ab008cd",
+    "q1_config_G01.json": "546e29862c080871aaa28d6032dc2bfbbac76af031e118d509ee9596660ff788",
+    "q2_catalogo_G01.csv": "66e8cb520defb34d45a0afacdfe0784400dd96cf448d5cdd9c4d46956da111a3",
+    "q2_config_G01.json": "aa25c8dba732d791c27925eefa1a932c33ab48ea5b70e182aa752bf9cae1cbd0"
+  },
+  "sha256_conjunto": "6b77ba9e0f938d9a4eb9f25fb0e21475dd4377487a80d65318844170e7aee629",
+  "aviso": "Os arquivos originais devem ser preservados. Qualquer alteração modificará o hash.",
+  "provisorio": true,
+  "aviso_provisorio": "INSTÂNCIA PROVISÓRIA reconstruída a partir de prints do notebook; substitua pelos arquivos oficiais gerados pelo notebook do professor."
+}

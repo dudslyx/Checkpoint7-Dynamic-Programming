@@ -1,0 +1,135 @@
+{
+  "instancia": {
+    "grupo": "G01",
+    "seed_base": 20,
+    "seed_final": 1020,
+    "seed_execucao": 1020,
+    "id_instancia": "6b77ba9e0f93",
+    "provisoria": true,
+    "n_skus": 24,
+    "semanas": 12,
+    "ajustes": [],
+    "dividas": {
+      "4": 56155.94,
+      "8": 72534.75,
+      "12": 105292.38
+    },
+    "caixa_inicial": 21205.75,
+    "orcamento_promocional_semanal": 4479.73,
+    "sigma": {
+      "demanda": 0.0956,
+      "concorrente": 0.0993,
+      "logistica": 0.0655
+    },
+    "limite_risco_falha": 0.1,
+    "cenarios_construcao": 2000,
+    "cenarios_validacao": 5000
+  },
+  "theta_escolhido": 0.0,
+  "pesos_semana": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "dp": {
+    "estados": 42120,
+    "leituras_V": 10108800,
+    "reuso_por_estado": 240.0,
+    "caminhos_ingenuos_L_pow_W": 2176782336.0
+  },
+  "greedy": {
+    "gasto_total": 12095.270999999999,
+    "orcamento_total": 53756.759999999995,
+    "uso_orcamento_pct": 22.5,
+    "ganho_esperado_dp": 9148.86881579642
+  },
+  "plano_completo": {
+    "n_cenarios": 5000,
+    "p_pagamento": {
+      "4": 1.0,
+      "8": 1.0,
+      "12": 1.0
+    },
+    "p_todas": 1.0,
+    "cenarios_falha": 0,
+    "falhas_por_prazo": {
+      "4": 0,
+      "8": 0,
+      "12": 0
+    },
+    "caixa_acumulado_medio": 508108.3442144844,
+    "saldo_liquido_medio": 274125.2742144845,
+    "saldo_liquido_desvio": 3794.491872040896,
+    "percentil_risco": 10.0,
+    "saldo_liquido_percentil": 269053.41404529323,
+    "cvar": 266765.42009477824,
+    "margem_pct": 22.719428742725025,
+    "estoque_final_un": 553.0808,
+    "estoque_final_pct": 15.865771658060813,
+    "estoque_final_custo": 232488.90736999997,
+    "risco_ok": true
+  },
+  "base": {
+    "n_cenarios": 5000,
+    "p_pagamento": {
+      "4": 1.0,
+      "8": 1.0,
+      "12": 1.0
+    },
+    "p_todas": 1.0,
+    "cenarios_falha": 0,
+    "falhas_por_prazo": {
+      "4": 0,
+      "8": 0,
+      "12": 0
+    },
+    "caixa_acumulado_medio": 331710.05783942173,
+    "saldo_liquido_medio": 97726.98783942172,
+    "saldo_liquido_desvio": 2472.3444476050076,
+    "percentil_risco": 10.0,
+    "saldo_liquido_percentil": 94537.46366665448,
+    "cvar": 92453.82832925719,
+    "margem_pct": 15.443157545968502,
+    "estoque_final_un": 405.7718,
+    "estoque_final_pct": 11.64004016064257,
+    "estoque_final_custo": 164614.69524200002,
+    "risco_ok": true
+  },
+  "ruptura_multiplicador_dividas": {
+    "base": 1.404037483036518,
+    "plano": 2.1498856749385595
+  },
+  "desempenho": {
+    "estimativa": {
+      "tempo_s": 0.028696864999997018,
+      "pico_kib": 10615.375
+    },
+    "dp": {
+      "tempo_s": 0.037700732000001125,
+      "pico_kib": 3274.7705078125
+    },
+    "greedy": {
+      "tempo_s": 0.028855606000000478,
+      "pico_kib": 39.8125
+    },
+    "validacao": {
+      "tempo_s": 0.12965001000000242,
+      "pico_kib": 4749.53125
+    }
+  },
+  "representativos": [
+    "Q2-024",
+    "Q2-005",
+    "Q2-011",
+    "Q2-010"
+  ]
+}
